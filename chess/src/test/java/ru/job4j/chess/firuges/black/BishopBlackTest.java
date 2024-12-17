@@ -28,7 +28,7 @@ class BishopBlackTest {
     }
 
     @Test
-    void whenC1wayG5ThenD2E3F4G5(){
+    void whenC1wayG5ThenD2E3F4G5() {
         Cell[] expected = {Cell.D2, Cell.E3, Cell.F4, Cell.G5};
         Cell position = Cell.C1;
         Figure figure = new BishopBlack(position);
