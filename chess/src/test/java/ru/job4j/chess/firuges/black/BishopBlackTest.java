@@ -10,7 +10,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.*;
 
-@Disabled("Тесты отключены. Удалить аннотацию после реализации всех методов по заданию.")
 class BishopBlackTest {
 
     @Test
